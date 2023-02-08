@@ -1,0 +1,278 @@
+body{
+    background: url('/images/bg5U.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-box{
+    margin: 40px auto;
+}
+
+/* .row{
+    border-radius: 5px;
+} */
+.contacts{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-right-width: 1px;
+    border-radius: 10px 0 0 10px;
+}
+
+.msg-box{
+    /* background-color: rgba(0,0,0,.5);
+    color: #fff; */
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-left-width: 1px;
+    border-radius: 0 10px 10px 0;
+}
+
+.contact-list{
+    height: 70vh;
+    /* background: url('/images/bg4.jpg'); */
+    
+    background-color: rgba(0,0,0,.5);
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed ; */
+    border: 4px solid;
+    border-color: #ee7724 #d8363a #dd3675 #b44593;
+    border-right-width: 2px;
+    border-radius: 10px 0 0 10px;
+}
+
+.chat-window{
+    background-color: rgba(0,0,0,.5);
+    color: #000000;
+    height: 70vh;
+    /* background-color: green; */
+    border: 4px solid ;
+    border-color: #ee7724 #d8363a #dd3675 #b44593;
+    border-left-width: 2px;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    overflow-y: auto;
+    position: sticky;
+}
+
+.nav-inside-chat{
+    position: sticky;
+    top: 0;
+}
+
+.r2{
+    margin-top: 10px;
+}
+
+.msg{
+    border: 1px solid black;
+}
+
+.right{
+    background-color: #FF597B;
+    float: right;
+    clear: both;
+    padding: 10px;
+    border-radius: 20px 20px 0 20px;
+    margin: 5px 10px;
+    color: white;
+}
+
+.left{
+    background-color: white;
+    float: left;
+    clear: both;
+    padding: 10px;
+    border-radius: 20px 20px 20px 0;
+    margin: 5px 10px;
+}
+
+.center{
+    background-color: #698269;
+    color: white;
+    margin: 20px auto;
+    clear: both;
+    padding: 2px;
+    border-radius: 5px;
+    max-width: 50%;
+}
+
+/* new-join{
+    visibility: hidden;
+} */
+
+.chat-start{
+    margin-top: 15px;
+}
+
+.send-box{
+    position: absolute;
+    clear: both;
+    /* bottom: 0; */
+    margin: 12px auto;
+}
+
+.msgInput{
+    width: 110vh;
+    border: 3px solid;
+    border-radius: 6pc;
+    padding: 10px;
+    background: linear-gradient(45deg, black, transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-color: #ee7724 #d8363a #dd3675 #b44593;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 3px;
+    background: linear-gradient(to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593);
+    color: white;   
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.btn:hover{
+    background: linear-gradient(45deg, black, transparent);
+    border: 3px solid;
+    border-color: #ee7724 #d8363a #dd3675 #b44593;
+    color: white;
+}
+
+.space-msg{
+    margin-top: 10px;
+}
+
+.contact-styling{
+    border: solid black 2px;
+    padding: 11px;
+    text-align: center;
+    background: pink;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.profile{
+    font-size: larger;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    max-width: 80%;
+    padding: 3px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#profileName{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#profileMail{
+    font-style: oblique;
+}
+
+#profileImg{
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    margin: 3px auto;
+}
+
+.designHeading{
+    color: white;
+    border: 2px solid white;
+    max-width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 12px;  
+    font-size: 30px; 
+}
+
+.designHeading:hover{
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    padding: 6px;
+    font-size: 40px;
+    margin: 16px auto;
+}
+
+.moon{
+    background: url('/images/bgPink.jpg');
+}
+/* https://whatsapp-clone-d9cf9.web.app/ */
+
+/* MEDIA QUERIES */
+
+/* max-width => width below or equal to 600 */
+@media screen and (max-width: 1000px){
+
+    #profileImg{
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        margin: 2px auto;
+    }
+
+    .profile{
+        margin: 30px auto;
+        text-align: center;
+        color: white;
+        background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+        max-width: 100%;
+        padding: 1px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: xx-small;
+    }
+
+    .col2{
+        width: 0;
+    }
+
+    .msgInput{
+        width: 30vh;
+    }
+
+    body{
+        background: url(/images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .center{
+        font-size: x-small;
+        max-width: 100%;
+    }
+
+    .msg{
+        font-size: x-small;
+        padding: 6px;
+        border-radius: 10px 10px 0 10px;
+        height: 30px;
+    }
+
+    .designHeading{
+        color: white;
+        border: none;
+        max-width: 20%;
+        margin: 5px auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px; 
+    }
+}
